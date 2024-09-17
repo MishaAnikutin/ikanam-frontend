@@ -1,0 +1,16 @@
+.header {
+    position: sticky;
+    background: #0F0F0F;
+    top: 0;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.search {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
