@@ -7,9 +7,7 @@ const Category = ({ selectedCategory, setSelectedCategory, category }) => (
         className={`category-btn ${category.name === selectedCategory ? 'active' : ''}`} 
         onClick={() => setSelectedCategory(category.name)}
     >
-        <span style={{color: "white"}}>
-            {category.icon}
-        </span>
+        <span style={{color: "white"}}>{category.icon}</span>
         <span style={{marginLeft: '25px'}}>{category.name}</span>
     </button>
 

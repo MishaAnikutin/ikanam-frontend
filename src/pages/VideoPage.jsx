@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import { Box, Stack } from '@mui/material';
 import { useParams } from 'react-router-dom';
-import { getVideoMetadataByID } from '../../utils/fetchFromAPI';
+import { getVideoMetadataByID } from '../utils/fetchFromAPI';
 
-import VideoDetail from './video_detail/VideoDetail';
-import VideoRecomendations from './VideoRecomendations';
+import VideoDetail from '../components/video/video_detail/VideoDetail';
+import VideoRecomendations from '../components/video/VideoRecomendations';
 
 const VideoPage = () => {
   const [ videoDetail, setVideoDetail ] = useState({});

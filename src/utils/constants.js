@@ -9,5 +9,4 @@ export const categories = [
   { name: 'Главное', icon: <HomeIcon />, },
   { name: 'Посмотреть позже', icon: <LockClock />, },
   { name: 'История', icon: <ArrowBackIosNewRounded />, },
-
 ];

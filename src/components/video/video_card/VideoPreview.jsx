@@ -9,7 +9,7 @@ const VideoPreview = ({ id, title, video_path, image_path }) => {
         <Link to={`/video/${id}`} className="link">
             <CardMedia 
                 component="img"
-                alt={title}
+                alt={"title"}
                 className="card-media"
                 image="https://cdn.culture.ru/images/7b2b6db0-dbd0-59fc-bfec-052d74040332" 
             />

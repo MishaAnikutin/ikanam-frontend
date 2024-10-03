@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { Stack } from '@mui/material';
 import { getAllMetadata } from '../../utils/fetchFromAPI';
 
-import VideoCard from '../feed/video_card/VideoCard';
+import VideoCard from './video_card/VideoCard';
 
 
 const VideoRecomendations = () => {

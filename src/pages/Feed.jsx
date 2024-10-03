@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Stack } from '@mui/material';
-import SideBar from './side_bar/SideBar';
-import VideosFeed from './VideosFeed';
-import { getAllMetadata } from '../../utils/fetchFromAPI';
+import SideBar from '../components/feed/side_bar/SideBar';
+import VideosFeed from '../components/feed/VideosFeed';
+import { getAllMetadata } from '../utils/fetchFromAPI';
 
 import './Feed.css';
 

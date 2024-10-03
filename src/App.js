@@ -3,7 +3,8 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Box } from '@mui/material'
 
-import { Header, Feed, SearchFeed, VideoPage } from './components';
+import { Header } from './components';
+import { Feed, VideoPage } from './pages';
 
 const App = () => {
   return (
@@ -13,7 +14,6 @@ const App = () => {
         <Routes>
           <Route path='/' exact element={ <Feed /> } />
           <Route path='/video/:id' exact element={ <VideoPage /> } />
-          <Route path='/search/:searchTerm' exact element={ <SearchFeed /> } />
         </Routes>
       </Box>
     </BrowserRouter>

@@ -1,0 +1,25 @@
+.tag-btn {
+    
+    margin-right: 10px;
+    padding: 7px 15px;
+
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    background-color: #3D3D3D;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+
+.tag-btn.active {
+    background: white;
+    color: black;
+}
+
+.tag-btn:hover {
+    background-color: white;
+    color: black !important;
+}

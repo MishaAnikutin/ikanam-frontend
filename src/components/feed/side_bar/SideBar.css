@@ -1,8 +1,9 @@
 .sidebar {
+    padding: 5px 5px;
     height: auto; 
     border-right: 1px solid #3d3d3d;
-    padding-left: 0;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     direction: column
 }
 
@@ -16,4 +17,5 @@
 .copyright {
     text-align: center;
     margin-top: 20px;
+    color: white;
 }
